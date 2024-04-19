@@ -1,0 +1,32 @@
+.latenight{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    border: 1px solid #e0e0e0;
+    margin: 15% auto 0;
+}
+
+.latenight>p{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.latenight>button{
+    height: 40px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.latenight>button:hover{
+    background-color: #6e9e76;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+

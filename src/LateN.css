@@ -1,0 +1,63 @@
+.lateN{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    margin: 15% auto 0;
+}
+
+.bell{
+    color: #6e9e76;
+    width: 30px;
+    height: 30px;
+}
+
+.lateN>input[type="email"]{
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #6e9e76;
+    height: 35px;
+}
+
+.lateN>input[type="date"]{
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 1px solid #6e9e76;
+    height: 35px;
+}
+
+
+.lateN>button{
+    border: 1px solid #6e9e76;
+    width: 80px;
+    height: 35px;
+    background-color: white;
+    color: #6e9e76;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #6e9e76;
+    cursor: pointer;
+}
+
+.lateN>button:hover{
+    color: white;
+    background-color: #6e9e76;
+    border: none;
+    cursor: pointer;
+}
+
+.close-btn{
+    width: 20px;
+    height: 20px;
+}
+
+.close-btn:hover{
+    background-color: #6e9e76;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
