@@ -1,11 +1,11 @@
 import React from 'react'
 import './Latenight.css'
 
-const Latenight = ({ Open }) => {
+const Latenight = ({ setShowLateN }) => {
   return (
     <div className='latenight'>
       <p>Notify me about late night deals</p>
-      <button onClick={() => Open(true)}>Show</button>
+      <button onClick={() => setShowLateN(true)}>Show</button>
     </div>
   )
 

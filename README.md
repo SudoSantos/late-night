@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Late Night Deals Notification
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project consists of React components designed to handle late night deals notifications.
+# Components
 
-## Available Scripts
+# Latenight
 
-In the project directory, you can run:
+The Latenight component displays a button to notify the user about late night deals. When clicked, it triggers the display of the LateN component.
 
-### `npm start`
+# LateN
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The LateN component allows the user to input their email and select a date for receiving late night deal notifications. It includes an input field for email, a date picker for selecting the notification date, and a button to confirm the notification request. Additionally, there's a close button to dismiss the notification window. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Notify
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Notify component confirms to the user that a reminder will be sent to them on the selected date.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To use these components in your React application, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Import the necessary components into your application:
 
-### `npm run eject`
+javascript
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+import Latenight from './Latenight';
+import LateN from './LateN';
+import Notify from './Notify';
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Place the components in your JSX where needed:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+javascript
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<Latenight />
+<Notify />
 
-## Learn More
+# Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    -Allows users to request notifications for late night deals.
+    -Provides a user-friendly interface for inputting email and selecting notification dates.
+    -Confirms notification requests with a reminder message.
+    -Includes a close button to dismiss the notification window.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Installation
 
-### Code Splitting
+To install the project dependencies, run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
 
-### Analyzing the Bundle Size
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Running the Project
 
-### Making a Progressive Web App
+To run the project locally, execute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+bash
 
-### Advanced Configuration
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Author
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was developed by sudosantos. You can find more of my work on GitHub.
